@@ -2,7 +2,7 @@ Name:           highlight
 Summary:        Universal source code to formatted text converter
 
 Version:        3.13
-Release:        1%{?dist}
+Release:        3%{?dist}
 
 Group:          Development/Tools
 License:        GPLv3
@@ -78,6 +78,12 @@ desktop-file-install \
 %{_datadir}/pixmaps/highlight.xpm
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 3.13-3
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 3.13-2
+- Mass rebuild 2013-12-27
+
 * Tue Feb 19 2013 Jochen Schmitt <Jochen herr-schmitt de> - 3.13-1
 - New upstream release
 - Clean up sPEC file
